@@ -1,1 +1,152 @@
+<meta charset="UTF-8">
+<html>
 
+<head>
+    <link rel="stylesheet" href="project.css"/>
+</head>
+
+<body>
+    <div class="textcentered1">
+        <h1>WORD PREDICTION GAME</h1>
+    </div>
+
+    <div class="imagecentered">
+        <input class="a" type="image" id="bir" src="A.svg"><input class="a" type="image" id="iki" src="A.svg"><input class="a" type="image" id="uc" src="A.svg"><input class="a" type="image" id="dort" src="A.svg"><input class="a" type="image" id="bes" src="A.svg">
+    </div>
+    <div class="textcentered">
+        <input type="text" id="cevap" placeholder="Prediction">
+    </div>
+    <div class="textcentered">
+        <button id="submit.button" onclick="Devam()">Submit</button>
+    </div>
+    <div class="textcentered">
+        <button id="restart.button" onclick="Yeniden()">Restart</button>
+    </div>
+    <div class="textcentered">
+        Score: <input type="text" id="skor" value="0" readonly>
+    </div>
+    <div class="textcentered">
+        <input class="b" type="image" id="k1" src="K.svg"><input class="b" type="image" id="k2" src="K.svg"><input class="b"type="image" id="k3" src="K.svg">
+    </div>
+
+
+    <script>
+        C=1;
+        L=2;
+        O=3;
+        U=4;
+        D=5;
+        Y=3;
+        skor=0;
+        function Yeniden(){
+            C=1;
+            L;2;
+            O=3;
+            U=4;
+            D=5;
+            skor=0;
+            Y=3;
+            document.getElementById("skor").value=skor;
+            document.getElementById("k1").className="b";
+            document.getElementById("k2").className="b";
+            document.getElementById("k3").className="b";
+            document.getElementById("bir").src="A.svg";
+            document.getElementById("iki").src="A.svg";
+            document.getElementById("uc").src="A.svg";
+            document.getElementById("dort").src="A.svg";
+            document.getElementById("bes").src="A.svg";
+        }
+        function Devam(){
+            if(skor==100){
+            }else if(Y==0){
+            }else{
+                Dene()
+            }
+        }
+        function Loser(){
+            let c = document.getElementById("cevap").value;
+            let cvp = c.toLowerCase();
+            if(cvp.length==1){
+                if(Y==3){
+                    document.getElementById("k3").className="hidden";
+                    Y=2;
+                }else if(Y==2){
+                    document.getElementById("k2").className="hidden";
+                    Y=1;
+                }else if(Y==1){
+                    document.getElementById("k1").className="hidden";
+                    Y=0;
+                    alert("You lost!");
+                }
+            }else if(cvp.length==5){
+                Y=0;
+                document.getElementById("k3").className="hidden";
+                document.getElementById("k2").className="hidden";
+                document.getElementById("k1").className="hidden";
+                alert("You lost!")
+            }
+        }
+        function Kontrol(){
+            if(skor==100){
+                alert("You win!")
+            }
+        }
+        function Skorer(){
+            skor = skor+20;
+            document.getElementById("skor").value=skor;
+            Kontrol()
+        }
+        function Dene(){
+            let c = document.getElementById("cevap").value;
+            let cvp = c.toLowerCase();
+            if(cvp == "cloud"){
+                document.getElementById("bir").src = "C.svg";
+                document.getElementById("iki").src = "L.svg";
+                document.getElementById("uc").src = "O.svg";
+                document.getElementById("dort").src = "U.svg";
+                document.getElementById("bes").src = "D.svg";
+                skor=80;
+                Skorer()
+            } else if(cvp=="c"){
+                if(C==0){}
+                if(C==1){
+                    C=0;
+                    document.getElementById("bir").src="C.svg";
+                    Skorer()
+                }
+            }else if(cvp=="l"){
+                if(L==0){}
+                if(L==2){
+                    L=0;
+                    document.getElementById("iki").src="L.svg";
+                    Skorer()
+                }
+            }else if(cvp=="o"){
+                if(O==0){}
+                if(O==3){
+                    O=0;
+                    document.getElementById("uc").src="O.svg";
+                    Skorer()
+                }
+            }else if(cvp=="u"){
+                if(U==0){}
+                if(U==4){
+                    U=0;
+                    document.getElementById("dort").src="U.svg";
+                    Skorer()
+                }
+            }else if(cvp=="d"){
+                if(D==0){}
+                if(D==5){
+                    D=0;
+                    document.getElementById("bes").src="D.svg";
+                    Skorer()
+                }
+            }else{
+                Loser()
+            }
+        }
+        
+    </script>
+</body>
+</html>

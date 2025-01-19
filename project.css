@@ -1,1 +1,34 @@
-
+.imagecentered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.textcentered{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10pt;
+}
+.textcentered1{
+    text-align: center;
+    color: chartreuse;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.a{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.b{
+    margin-right: 10px;
+}
+#skor{
+    border: none;
+    width: 2%;
+}
+.hidden{
+    display: none;
+}
