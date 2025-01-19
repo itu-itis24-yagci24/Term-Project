@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="20mm"
+   height="20mm"
+   viewBox="0 0 20 20"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="C.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.66546717"
+     inkscape:cx="397.46514"
+     inkscape:cy="200.61095"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="109.69737"
+       y="303.54614"
+       width="40.573002"
+       height="120.2163"
+       id="rect8" />
+    <rect
+       x="344.11914"
+       y="644.65991"
+       width="204.36771"
+       height="222.40015"
+       id="rect6" />
+    <rect
+       x="360.6489"
+       y="287.01642"
+       width="190.84337"
+       height="284.01099"
+       id="rect5" />
+    <rect
+       x="160.78931"
+       y="575.53552"
+       width="150.27037"
+       height="130.73521"
+       id="rect4" />
+    <rect
+       x="139.75145"
+       y="353.13538"
+       width="73.632492"
+       height="79.643295"
+       id="rect3" />
+    <rect
+       x="120.2163"
+       y="133.74063"
+       width="160.78931"
+       height="181.82715"
+       id="rect1" />
+  </defs>
+  <g
+     inkscape:label="Katman 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text1"
+       style="font-size:26.6667px;font-family:Rockwell;-inkscape-font-specification:Rockwell;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);fill:#000000" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-38.432796,-93.396521)"
+       id="text3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.6667px;font-family:Papyrus;-inkscape-font-specification:Papyrus;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);shape-padding:1.5027;fill:#000000"
+       x="0"
+       y="0"><tspan
+         x="141.25391"
+         y="407.19398"
+         id="tspan1">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;font-family:Rockwell;-inkscape-font-specification:Rockwell;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.264583"
+       x="48.903614"
+       y="212.71083"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="stroke-width:0.264583"
+         x="48.903614"
+         y="212.71083">D</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text8"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.6667px;font-family:Papyrus;-inkscape-font-specification:Papyrus;text-align:start;letter-spacing:1px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect8);fill:#000000" />
+  </g>
+</svg>
