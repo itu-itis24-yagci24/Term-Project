@@ -1,3 +1,21 @@
 html{
     background-color: cadetblue;
 }
+#vesikalik{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+p{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#bt{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
